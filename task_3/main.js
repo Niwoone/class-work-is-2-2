@@ -1,16 +1,3 @@
-// let person = {
-//     name: "Андрей",
-//     age: "15",
-//     hobbies: ["кушать","спать","Слово пацана"],
-//     contacts: {
-//         phone: [88005553535,88005553535],
-//         email: ["gashchenko62@mail.ru", 'rosa1983@List.ru"],
-//         social: "www.github.com"
-//     }
-// }
-// console.log(`Имя - ${person['name']}. Возраст - ${person['age']}`)
-// console.log(person)
-// console.log(person['contacts']['email'][1])
 
 const students = [
     {name: "Андрей", age: 17, serial: 11111, group: 'Ис-2-2'},
