@@ -32,12 +32,19 @@
 // }
 
 
-let person = {name: "Tom", age: 17}
-// console.log(person["name"])
-// item - хранит в себе динамические значения в нашем случае(name,age)
+// let person = {name: "Tom", age: 17}
+// // console.log(person["name"])
+// // item - хранит в себе динамические значения в нашем случае(name,age)
 
 
-for(let item in person) {
-    let result = person[item]
-    console.log(result)
+// for(let item in person) {
+//     let result = person[item]
+//     console.log(result)
+// }
+
+const array = [["Tom", 16], ["Bob", 17], ["Ron", 36]];
+for(let subArr of array) {
+    for (let item of subArr){
+        console.log(item)
+    }
 }
